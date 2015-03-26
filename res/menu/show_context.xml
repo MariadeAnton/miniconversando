@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/createmenu"
+          android:title="@string/create_phrase" />
+    <item android:id="@+id/editmenu"
+          android:title="@string/edit_phrase" />
+    <item android:id="@+id/deletemenu"
+          android:title="@string/remove_phrase" />
+    <item android:id="@+id/mailmenu"
+          android:title="@string/mail" />
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.amalulla.mini"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo" >
+        <activity
+            android:name="com.amalulla.mini.Principal"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.amalulla.mini.CreateNewPhrase"
+            android:label="@string/title_activity_create_new_phrase"
+            android:parentActivityName="com.amalulla.mini.Principal" >
+        </activity>
+        <activity
+            android:name="com.amalulla.mini.ShowPhrases"
+            android:label="@string/title_activity_show_phrases" >
+        </activity>
+        <activity
+            android:name="com.amalulla.mini.EditPhrase"
+            android:label="@string/title_activity_edit_phrase" >
+        </activity>
+        <activity
+            android:name="com.amalulla.mini.RemovePhrase"
+            android:label="@string/title_activity_remove_phrase" >
+        </activity>
+        <activity
+            android:name="com.amalulla.mini.Help"
+            android:theme="@android:style/Theme.Holo.Dialog"
+            android:label="@string/title_activity_help" >
+        </activity>
+    </application>
+
+</manifest>
