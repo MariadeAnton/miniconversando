@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MiniConversando</string>
+    <string name="action_about">Acerca de</string>
+    <string name="action_help">Ayuda</string>
+    <string name="create_phrase">Crear frase</string>
+    <string name="edit_phrase">Editar frase</string>
+    <string name="remove_phrase">Borrar frase</string>
+    <string name="title_activity_create_new_phrase">Nueva frase</string>
+    <string name="enter_cat">Introduzca categoría</string>
+    <string name="enter_phrase">Introduzca frase</string>
+    <string name="cat">Categoría</string>
+    <string name="phrase">Frase</string>
+    <string name="speak">Hablar</string>
+    <string name="send">Guardar</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Borrar</string>
+    <string name="title_activity_show_phrases">Mostrar frases</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_edit_phrase">Editar frase</string>
+    <string name="choose_cat">Seleccione categoría</string>
+    <string name="choose_phrase">Seleccione frase</string>
+    <string name="title_activity_remove_phrase">Borrar frase</string>
+    <string name="dialog_message_delete">¿Desea borrar esta frase?</string>
+    <string name="dialog_message_deletecat">¿Desea borrar esta categoría?</string>
+    <string name="dialog_message_editcat">Introduzca el nuevo nombre para la categoría</string>
+    <string name="dialog_message_editphrase">Introduzca la nueva frase</string>
+    <string name="dialog_title_delete">Borrar frase</string>
+    <string name="dialog_title_deletecat">Borrar categoría</string>
+    <string name="dialog_title_editcat">Editar categoría</string>
+    <string name="dialog_message_edit">¿Desea editar esta frase?</string>
+    <string name="dialog_title_edit">Editar frase</string>
+    <string name="dialog_title_about">Acerca de</string>
+    <string name="dialog_title_help">Ayuda</string>
+    <string name="dialog_title_exit">Salir</string>
+    <string name="dialog_title_sure">¿Desea salir de la aplicación?</string>
+    <string name="dialog_title_yes">Sí</string>
+    <string name="dialog_title_no">No</string>
+    <string name="dialog_tts_success">Text-To-Speech engine se ha inicializado</string>
+    <string name="dialog_tts_failure">Error incicializando Text-To-Speech engine</string>
+    <string name="ok">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="edit_toast">Editando frase…</string>
+    <string name="del_toast">Borrando frase…</string>
+    <string name="delcat_toast">Borrando categoría…</string>
+    <string name="save_toast">Guardando frase…</string>
+    <string name="error_null_message">Introduzca datos en los campos</string>
+    <string name="error_null_title">Error</string>
+    <string name="mail">Enviar por correo</string>
+    <string name="dialog_title_email">¿Enviar esta frase por correo?</string>
+    <string name="dialog_message_email">¿Desea enviar esta frase por correo?</string>
+    <string name="no_email_client">No hay clientes de correo instalados</string>
+    <string name="title_activity_help">Ayuda</string>
+    
+    <string name="text_about1"> MiniConversando </string>
+							   
+    <string name="intro">Introducción</string>
+    <string name="intro_text">La aplicación leerá cualquier frase que el usuario guarde simplemente entrando en la categoría donde la tengamos almacenada y toquemos sobre ella.</string>
+    
+    <string name="create_help">Para crear una nueva frase basta con pulsar el botón "Crear frase" en el menú principal, escribir una categoría (nueva o existente) y escribir la nueva frase. También existe la opción de añadir una frase a una categoría desde su listado de frases, haciendo una pulsación larga sobre cualquiera de ellas, pulsando sobre "Crear frase", escribir la nueva frase y aceptar.</string>
+    
+    <string name="edit_help">Se puede editar una frase desde el menú principal, en el botón "Editar frase". Al igual que para crear, podemos acceder al listado de frases y hacer una pulsación larga sobre cualquiera de ellas para editarla. 
+         Para editar una categoría hay que hacer una pulsación larga sobre ella y entrar en editar.</string>
+         
+    <string name="delete_help">El usuario podrá borrar una frase desde el botón correspondiente en el menú principal o desde el menú contextual del listado de frases de cada categoría.
+        Para borrar una categoría basta con hacer una pulsación larga sobre ella y tocar la opción de borrar.</string>
+
+    <string name="email_help_title">Enviar correo</string>
+    <string name="email_help_text">La aplicación también ofrece la opción de enviar cualquier frase por correo haciendo una pulsación larga sobre ella y accediendo a la opción correspondiente. Al aceptar se lanzará el cliente de correo que el usuario elija de entre los instalados en su sistema. Por defecto se enviará como asunto el título de la categoría correspondiente.</string>
+</resources>
