@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Speech bubble -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,22 Q20,14 28,14 L80,14 Q88,14 88,22 L88,60 Q88,68 80,68 L50,68 L38,82 L38,68 L28,68 Q20,68 20,60 Z" />
+    <!-- Letter M -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M32,56 L32,30 L42,48 L54,30 L54,56 L50,56 L50,40 L42,54 L34,40 L34,56 Z" />
+    <!-- Letter C -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M76,38 Q76,28 67,28 Q58,28 58,41 Q58,54 67,54 Q76,54 76,44 L72,44 Q72,50 67,50 Q62,50 62,41 Q62,32 67,32 Q72,32 72,38 Z" />
+</vector>

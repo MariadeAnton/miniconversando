@@ -1,7 +1,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    style="?android:attr/buttonBarStyle"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
@@ -16,7 +15,6 @@
 
         <Button
             android:id="@+id/remove"
-            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="0.33"
@@ -24,10 +22,9 @@
             android:background="@drawable/remove"
             android:text="@string/remove_phrase"
             android:textColor="@android:color/black" />
-        
+
         <Button
             android:id="@+id/edit"
-            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="0.33"
@@ -38,7 +35,6 @@
 
         <Button
             android:id="@+id/create_phrase"
-            style="?android:attr/borderlessButtonStyle"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="0.33"
@@ -49,16 +45,9 @@
 
     </LinearLayout>
 
-	<ListView
-        android:id="@android:id/list"
-        android:layout_width="0dp"
-        android:layout_height="0dp" />
-    
     <ListView
         android:id="@+id/listView1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
-
-    </ListView>
+        android:layout_height="match_parent" />
 
 </LinearLayout>

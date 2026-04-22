@@ -193,7 +193,7 @@ public class Processor {
 						}
 					}
 				});
-				thread.run();
+				thread.start();
 			}
 		});
 

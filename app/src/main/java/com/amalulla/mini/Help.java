@@ -1,11 +1,9 @@
 package com.amalulla.mini;
 
-
-import android.app.Activity;
 import android.os.Bundle;
-import com.amalulla.mini.R;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class Help extends Activity {
+public class Help extends AppCompatActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

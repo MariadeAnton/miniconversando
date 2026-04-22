@@ -68,4 +68,17 @@
 
     <string name="email_help_title">Enviar correo</string>
     <string name="email_help_text">La aplicación también ofrece la opción de enviar cualquier frase por correo haciendo una pulsación larga sobre ella y accediendo a la opción correspondiente. Al aceptar se lanzará el cliente de correo que el usuario elija de entre los instalados en su sistema. Por defecto se enviará como asunto el título de la categoría correspondiente.</string>
+
+    <string name="privacy_policy">Política de Privacidad</string>
+    <string name="privacy_policy_title">Política de Privacidad de MiniConversando</string>
+    <string name="privacy_policy_text">MiniConversando es una aplicación de comunicación aumentativa y alternativa (CAA) diseñada para personas con dificultades en el habla o la movilidad.\n\n
+<b>Datos que almacenamos</b>\n
+Las categorías y frases que usted crea se guardan únicamente en su dispositivo, en una base de datos local. No recopilamos, transmitimos ni compartimos ningún dato personal con terceros. No tenemos acceso a sus frases ni a ningún otro dato del dispositivo.\n\n
+<b>Permisos</b>\n
+La aplicación no requiere acceso a internet. Utiliza el motor de síntesis de voz (Text-to-Speech) del sistema para leer las frases en voz alta. No accede a la cámara, el micrófono, los contactos ni ningún otro dato sensible.\n\n
+<b>Seguridad</b>\n
+Todos sus datos permanecen en su dispositivo y no se envían a ningún servidor externo.\n\n
+<b>Contacto</b>\n
+Si tiene alguna pregunta sobre esta política de privacidad puede contactarnos a través de la página de la aplicación en Google Play.\n\n
+Última actualización: 2024</string>
 </resources>
