@@ -1,13 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 16
-    buildToolsVersion "21.1.2"
+    namespace 'com.amalulla.mini'
+    compileSdkVersion 35
 
     defaultConfig {
         applicationId "com.amalulla.mini"
-        minSdkVersion 14
-        targetSdkVersion 17
+        minSdkVersion 21
+        targetSdkVersion 35
+        versionCode 2
+        versionName "2.0"
     }
 
     buildTypes {

@@ -65,7 +65,7 @@ public class ShowPhrases extends Activity implements OnInitListener {
 				
 				if (item!=null && item.length()>0) {
 					Toast.makeText(ShowPhrases.this, "Diciendo: " + item, Toast.LENGTH_LONG).show();
-					tts.speak(item, TextToSpeech.QUEUE_ADD, null);
+					tts.speak(item, TextToSpeech.QUEUE_ADD, null, null);
 				}
 			}
 		});
